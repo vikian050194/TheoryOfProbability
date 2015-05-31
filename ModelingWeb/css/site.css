@@ -1,0 +1,75 @@
+.output-container {
+    background-color: transparent;
+    display: inline-block;
+    width: calc(100% - 323px);
+    padding: 0;
+    max-width: none;
+}
+
+.button-container {
+    background-color: transparent;
+    float: right;
+    display: inline-block;
+    padding-left: 0;
+    padding-right: 0;
+	    width: 100%;
+    width: 300px;
+    max-width: 300px;
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* canvas {
+    max-height: none;
+    max-width: none;
+} */
+
+.borderB {
+border: 2px solid #000; 
+    border-radius: 6px;
+    padding: 2px;
+    margin: 5px; 
+}
+
+.borderT {
+border: 2px solid #000; 
+    border-radius: 6px;
+	
+ top: 50%;
+ left: 50%;
+ width: 1000px;
+ height: 250px;
+ position: absolute; 
+ margin-top: -125px; 
+ margin-left: -500px; 
+}
+
+label {
+    font-size: 20px;
+	margin-bottom: 0;
+}
+
+.btn,
+button {
+    width: 100%;
+	min-width:200px;
+}
+
+#ex1Slider .slider-selection {
+    background: #149bdf;
+}
+/* #ex1Slider .slider-handle {
+	background: gray;
+} */
+#ex1Slider .slider-track-high {
+    background: #D0EBF9;
+}

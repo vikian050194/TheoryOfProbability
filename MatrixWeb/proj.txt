@@ -1,0 +1,32 @@
+<NotepadPlus>
+    <Project name="MarkovMatrixVachovski">
+        <Folder name="css">
+            <File name="css\bootstrap-slider.css" />
+            <File name="css\bootstrap.css" />
+            <File name="css\site.css" />
+        </Folder>
+        <Folder name="scripts">
+            <Folder name="MatrixPower">
+                <File name="scripts\MatrixPower\controller.js" />
+            </Folder>
+            <Folder name="Pi">
+                <File name="scripts\Pi\controller.js" />
+            </Folder>
+            <Folder name="Pn">
+                <File name="scripts\Pn\controller.js" />
+            </Folder>
+            <Folder name="tools">
+                <File name="scripts\tools\bootstrap-slider.js" />
+                <File name="scripts\tools\fraction.js" />
+                <File name="scripts\tools\matrixPower.js" />
+                <File name="scripts\tools\viewer.js" />
+            </Folder>
+        </Folder>
+        <File name=".gitignore" />
+        <File name="Index.html" />
+        <File name="MatrixPower.html" />
+        <File name="Pi.html" />
+        <File name="Pn.html" />
+        <File name="proj.txt" />
+    </Project>
+</NotepadPlus>
