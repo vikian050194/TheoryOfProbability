@@ -1,12 +1,13 @@
 ﻿<!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <title>Точка</title>
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/site.css" rel="stylesheet">
     <link href="css/bootstrap-slider.css" rel="stylesheet">
-	<link rel="shortcut icon" href="retweet.png" />
+    <link rel="shortcut icon" href="retweet.png" />
     <script type="text/javascript" src="scripts/tools/bootstrap-slider.js"></script>
     <script type="text/javascript" src="scripts/tools/utils.js"></script>
     <script type="text/javascript" src="scripts/1D/probabilityPoint1D.js"></script>
@@ -14,6 +15,7 @@
     <script type="text/javascript" src="scripts/1D/painter1D.js"></script>
     <script type="text/javascript" src="scripts/1D/controller.js"></script>
 </head>
+
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
@@ -27,14 +29,15 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="dot1D.html">Блуждание точки 1D</a></li>
-                    <li><a href="dot2D.html">Блуждание точки 2D</a></li>
-                    <li><a href="dot3D.html">Блуждание точки 3D</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-					<li><a href="https://vk.com/vikian050194" id="registerLink">Виноградов</a></li>
-					<li><a href="https://vk.com/id14790061" id="registerLink">Овченков</a></li>
-					<li><a href="https://vk.com/romanalf" id="registerLink">Алфёров</a></li>
+                    <li>
+                        <a href="dot1D.html">Блуждание точки 1D</a>
+                    </li>
+                    <li>
+                        <a href="dot2D.html">Блуждание точки 2D</a>
+                    </li>
+                    <li>
+                        <a href="dot3D.html">Блуждание точки 3D</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -48,19 +51,24 @@
                 <input type="button" id="startButton" class="btn btn-success btn-lg" value="Старт" />
                 <input type="button" id="pauseButton" class="btn btn-warning btn-lg" value="Пауза" />
                 <input type="button" id="stopButton" class="btn btn-danger btn-lg" value="Стоп" />
-                <input type="button" id="resetButton" class="btn btn-primary btn-lg" title="значения вероятностей и т.п." value="Сбросить" />
+                <input type="button" id="resetButton" class="btn btn-primary btn-lg" title="значения вероятностей и т.п." value="Сбросить"
+                />
             </div>
             <hr />
             <label>Px: &nbsp;</label>
-            <input id="pxRange" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="1" data-slider-step="0.001" data-slider-value="0.5" />
+            <input id="pxRange" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="1" data-slider-step="0.001"
+                data-slider-value="0.5" />
             <hr />
             <label>Dx: &nbsp;</label>
-            <input id="dxRange" data-slider-id='ex1Slider' type="text" data-slider-min="1" data-slider-max="100" data-slider-step="1" data-slider-value="75" />
+            <input id="dxRange" data-slider-id='ex1Slider' type="text" data-slider-min="1" data-slider-max="100" data-slider-step="1"
+                data-slider-value="75" />
             <hr />
             <label>Dt &nbsp;</label>
-            <input id="dtRange" data-slider-id='ex1Slider' type="text" data-slider-min="1" data-slider-max="1000" data-slider-step="1" data-slider-value="350" />
+            <input id="dtRange" data-slider-id='ex1Slider' type="text" data-slider-min="1" data-slider-max="1000" data-slider-step="1"
+                data-slider-value="350" />
             <hr />
-            <input id="speedRange" data-slider-id='ex1Slider' type="text" data-slider-min="1" data-slider-max="500" data-slider-step="1" data-slider-value="100" />
+            <input id="speedRange" data-slider-id='ex1Slider' type="text" data-slider-min="1" data-slider-max="500" data-slider-step="1"
+                data-slider-value="100" />
             <label>Скорость: &nbsp;</label>
             <hr />
             <label class="text-center">Суммарное время нахождения</label>
@@ -74,4 +82,5 @@
         </div>
     </div>
 </body>
+
 </html>
